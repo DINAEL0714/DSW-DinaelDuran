@@ -1,0 +1,25 @@
+h2 {
+    color: rgb(34, 14, 14);
+}
+article {
+    color: rgb(50, 71, 187);
+}
+nav {
+    color: rgb(99, 35, 16);
+}
+section{
+    float: left;
+    width: 70%;
+}
+aside {
+    float: left;
+    width: 30%;
+}
+.contenedor::after {
+     content: "";
+     display: block;
+     clear: both;
+}
+body {
+    background-color: rgb(179, 172, 172);
+}
